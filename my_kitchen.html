@@ -1,0 +1,62 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <title>My Kitchen</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript.js"></script>
+    </head>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <label for="restaurants">Restaurants</label>
+                    <select id="restaurants" name="restaurants">
+                        <option value="copelands_dropdown">Copeland's New Orleans Restaurant</option>
+                        <option value="10th_dropdown">10th & Piedmont</option>
+                        <option value="herbanfix_dropdown">Herban Fix Vegan Kitchen</option>
+                        <option value="wafflehouse_dropdown">Waffle House</option>
+                        <option value="mykitchen_dropdown">Reka's Kitchen</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        
+        <h1>My Kitchen</h1>
+        
+        <h2>Wanna order some of my meals?</h2>
+        
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <!-- <br> -->
+            <label for="address">Street Address</label>
+            <input type="text" id="address" name="address">
+            <!-- <br> -->
+            <label for="city">City, State, Zip</label>
+            <input type="text" id="city" name="city">
+            <!-- <br> -->
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone">
+            <br>
+            <br>
+            <h3>Do you have any dietary restrictions?</h3>
+            <label for="low-sodium">Low Sodium</label>
+            <input type="checkbox" name="low-sodium" id="low-sodium" value="Low Sodium">
+            <br>
+            <label for="diabetic">Diabetic</label>
+            <input type="checkbox" id="diabetic" name="diabetic" value="Diabetic">
+            <br>
+            <label for="vegan">Vegan</label>
+            <input type="checkbox" id="vagan" name="vegan" value="Vegan">
+            <br>
+            <label for="vegetarian">Diabetic</label>
+            <input type="checkbox" id="vegetarian" name="vegetarian" value="Vegetarian">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </body>
+</html>
